@@ -1,11 +1,13 @@
 // 다음 배열에서 400, 500을 삭제하기
 
-var nums = [100, 200, 300, 400, 500];
 
-nums.pop();
-nums.pop();
+var numbers = [100, 200, 300, 400, 500];
+numbers.pop();
+numbers.pop();
 
-console.log(nums);
+console.log(numbers);
+
 
 // pop()
-// 배열의 뒤에서부터 pop이 실행될 때마다 하나씩 삭제한다.
+// 배열의 마지막 요소를 제거하여 반환한다.
+// 빈 배열에서 호출하면 undefined를 반환한다.
